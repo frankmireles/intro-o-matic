@@ -1,0 +1,15 @@
+@use 'variables' as *;
+
+@use 'switch';
+@use 'form';
+@use 'header';
+@use 'prompt';
+@use 'preview';
+
+body{
+    font-family: $fuente-ubuntu;
+
+    pre {
+      font-family: $fuente-ubuntu;
+    }
+}

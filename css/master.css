@@ -1,0 +1,25 @@
+/* The switch - the box around the slider */
+.switch {
+  display: flex;
+}
+
+header {
+  font-family: "Ubuntu", sans-serif;
+}
+
+.prompt {
+  display: flex;
+}
+
+.preview {
+  color: #808080;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+body pre {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*# sourceMappingURL=master.css.map */
