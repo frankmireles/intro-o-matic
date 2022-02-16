@@ -5,9 +5,13 @@
 @use 'header';
 @use 'prompt';
 @use 'preview';
+@use 'pre-viewport';
+@use 'panels';
+
 
 body{
     font-family: $fuente-ubuntu;
+    margin: 0;
 
     pre {
       font-family: $fuente-ubuntu;
