@@ -41,7 +41,7 @@
           <p>Preséntate como una autoridad sobre el tema</p>
           <div class="prompt">
             <textarea cols="40" rows="5" id="q2a"></textarea>  <!-- permitir texto multilinea-->
-            <button type="button" name="button" onclick="capture('q2a', 0, ''); show('q5')">Capturar</button>
+            <button type="button" name="button" onclick="capture('q2a', 0, '', '.'); show('q5')">Capturar</button>
           </div>
           <p class="preview" id="q2p">Ej. Hola, soy Severus Snape. Soy Profesor
             de Pociones de la escuela Howarts de magia y hechicería. También he
@@ -96,7 +96,7 @@
             ¡Gracias por continuar con tu curso!. En este slab revisaremos ____TEMA GENERAL____
             y contaremos con recursos que te ayudarán a entender mejor el tema.</option>
           </select>
-          <button type="button" name="button" onclick="capture('q4a', 0, ''); show('q5')">Capturar</button>
+          <button type="button" name="button" onclick="capture('q4a', 0, '', ''); show('q5')">Capturar</button>
           <hr class="solid">
         </div>
 
@@ -138,7 +138,7 @@
 
           <div>
             <input type="radio" id="datoInte" name="dato" value="datoInte" onclick="show('q6-c');hide('q6-a');hide('q6-b');">
-            <label for="datoInte">Dato Interesante</label>
+            <label for="datoInte">Dato Interesante (Información cómica, curiosa, o poco conocida)</label>
           </div>
         </div>
 
@@ -171,7 +171,7 @@
           <div class="prompt">
             <textarea id="datoRel" rows="5" cols="40"></textarea>
             <button type="button" name="button"
-            onclick="capture('datoRel', 1, ''); show('q7');">Capturar</button>
+            onclick="capture('datoRel', 1, '', '.'); show('q7');">Capturar</button>
           </div>
           <p id="q6-bp" class="preview">Ej. Un Bezoar es una piedra sacada del estomago
             de una cabra y sirve para eliminar la mayoría de los venenos, siendo
@@ -186,7 +186,7 @@
             <pre>¿Sabías que </pre>
             <textarea id="datoInt" rows="5" cols="40"></textarea>
             <button type="button" name="button"
-            onclick="capture('datoInt', 1, '¿Sabías que '); show('q7');">Capturar</button>
+            onclick="capture('datoInt', 1, '¿Sabías que ', '?'); show('q7');">Capturar</button>
           </div>
           <p id="q6-cp" class="preview">Ej. ¿Sabías que las mandragoras lloran cuando
             las sacas de la maceta? Este es un mecanismo de defensa para que no
@@ -217,7 +217,7 @@
             <button type="button" name="buttonSt" onclick="captureStarter(); show('q8');">
               Capturar</button>
             <!-- <button type="button" id="buttonAdd" onclick="addStarter();">Añadir</button> --->
-            <button type="button" name="buttonClear" onclick="clearStarter();">Clear</button>
+            <button type="button" name="buttonClear" onclick="clearStarter();">Borrar enunciados</button>
           </div>
           <p id='q7p' class="preview">Ej. En este slab aprenderás recetas de pócimas mágicas.</p>
           <hr class="solid">
@@ -265,7 +265,7 @@
               Capturar</button>
           </div>
           <p id='q9p' class="preview"> Saberlo te permitirá incrementar tu repertorio
-            de hechizos e incrementará tu repitación como mago.</p>
+            de hechizos e incrementará tu reputación como mago.</p>
           <hr class="solid">
         </div>
 
@@ -309,7 +309,7 @@
             Sabemos que suena complejo, pero ya verás lo interesante que resulta. Sigue con tu esfuerzo</option>
           </select>
           <div class="prompt">
-            <button type="button" name="button" onclick="capture('q11a', 4, ''); show('thanks')">Capturar</button>
+            <button type="button" name="button" onclick="capture('q11a', 4, '', ''); show('thanks')">Capturar</button>
           </div>
           <div>
             <input type="checkbox" id="q11cbY" onclick="
@@ -324,7 +324,7 @@
           <p>Redacta tu frase de despedida personalizada</p>
           <div class="prompt">
             <textarea cols="40" rows="5" id="q12a"></textarea>  <!-- permitir texto multilinea-->
-            <button type="button" name="button" onclick="capture('q12a', 4, ''); show('thanks')">Capturar</button>
+            <button type="button" name="button" onclick="capture('q12a', 4, '', '.'); show('thanks')">Capturar</button>
           </div>
           <p class="preview" id="q12p"></p>
           <hr class="solid">
