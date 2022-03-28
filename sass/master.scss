@@ -8,12 +8,15 @@
 @use 'pre-viewport';
 @use 'panels';
 
-
-body{
-    font-family: $fuente-ubuntu;
-    margin: 0;
-
-    pre {
+html{
+  height:100%;
+  body{
+      display: flex;
       font-family: $fuente-ubuntu;
+      margin: 0;
+
+      pre {
+        font-family: $fuente-ubuntu;
+      }
     }
 }

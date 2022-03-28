@@ -18,22 +18,30 @@ header {
 
 .pre-viewport {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   background-color: #3386FF;
-  width: 50%;
 }
 
+/*.final-touches {
+  display: flex;
+  align-items: center;
+  position: fixed;
+}*/
 .panels {
   width: 50%;
   padding: 10px;
 }
 
-body {
+html {
+  height: 100%;
+}
+html body {
+  display: flex;
   font-family: "Ubuntu", sans-serif;
   margin: 0;
 }
-body pre {
+html body pre {
   font-family: "Ubuntu", sans-serif;
 }
 

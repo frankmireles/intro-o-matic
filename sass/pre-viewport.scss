@@ -2,9 +2,13 @@
 
 .pre-viewport {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   justify-content: center;
   background-color: $blue;
-  width:50%;
-
 }
+
+/*.final-touches {
+  display: flex;
+  align-items: center;
+  position: fixed;
+}*/
